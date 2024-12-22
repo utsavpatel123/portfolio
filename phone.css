@@ -1,0 +1,248 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    width: 120%;
+}
+
+/* -----------------------------------------------------------navbar------------------------------------------------- */
+
+nav .fa {
+    display: block;
+    font-size: 25px;
+}
+
+nav ul {
+    background-color: blue;
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    height: 100%;
+    padding-top: 50px;
+    z-index: 2;
+    transition-duration: 0.5s;
+}
+
+nav ul li {
+    display: block;
+    margin: 35px;
+
+}
+
+nav ul .fa {
+    position: absolute;
+    top: 25px;
+    cursor: pointer;
+}
+
+/* ----------------------------------------------------------------------header-------------------------------------------------- */
+
+
+#header {
+    background: none;
+    text-align: center;
+    width: 0%;
+}
+
+.header-text h1 {
+    margin-top: 20px;
+}
+
+
+/* --------------------------------------------------------------services------------------------------------------------------- */
+
+
+#services {
+    margin-top: 0px;
+    width: auto;
+    text-align: center;
+}
+.sub-titals{
+    margin-left: 0px;
+}
+
+.div-one {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.div-two {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.div-three {
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+
+}
+
+.services-list {
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    margin-right: 0px;
+    flex-wrap: wrap;
+}
+
+
+/* ---------------------------------------------------------------portfolio--------------------------------------------------- */
+
+
+#portfolio {
+    margin-top: 0%;
+    text-align: center;
+}
+
+.work-list {
+
+    flex-basis: 100%;
+    text-align: center;
+    /* background-color: red; */
+}
+
+.work-one {
+    margin-bottom: 30px;
+    margin-left: 50px;
+     border-radius: 10px;
+    margin-right: 0px;
+}
+
+.work-two {
+    margin-right: 0px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+
+.work-three {
+    margin-right: 0px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.main-tital {
+    /* background-color: aqua; */
+    margin-left: 0px;
+    font-size: 70px;
+    margin-bottom: 60px;
+}
+
+.btn {
+    display: flex;
+    margin: 20px 0px;
+    border-radius: 10px;
+}
+
+.btns {
+    width: 30%;
+    /* background-color: blue; */
+    margin: 70px 170px;
+}
+
+
+/* ---------------------------------------------------------------contect-------------------------------------------------------- */
+
+
+#contect {
+    text-align: center;
+}
+
+.contect-right form {
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+.contect-left{
+    flex-basis: 100%;
+    margin-left: 0px;
+}
+.contect-right {
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.sub-title{
+    /* background-color: blue; */
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+/* -------------------------------------------------------------------------about--------------------------------------------------------- */
+
+
+#about {
+    display: flex;
+    align-items: center;
+}
+
+.about-col-1 {
+    flex-basis: 100%;
+}
+
+.about-col-1 img {
+    border-radius: 13px;
+    margin-top: 80px;
+    width: 100px;
+    height: 400px;
+    margin-left: 10px;
+    width: 90%;
+    height: 80%;
+}
+
+.sub-tital {
+    width: 100%;
+    margin-left: 110px;
+    margin-top: 0px;
+    font-size: 50px;
+/* background-color: tomato; */
+}
+
+.tab-tital {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-right: 10px;
+    /* background-color: violet; */
+
+}
+
+.tab-contents {
+    width: 100%;
+    margin-left: 100px;
+    /* background-color: yellow; */
+
+}
+.para {
+    width: 100%;
+    /* background-color: springgreen; */
+    margin-left: 100px;
+    margin-right: px;
+}
+/* --------------------------------------------------------------------------about----------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
